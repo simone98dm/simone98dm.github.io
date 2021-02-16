@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "PhotoContest",
+    "description": "Photo contest web app",
+    "links": [
+      {
+        "url": "https://github.com/simone98dm/PhotoContest",
+        "label": "repo"
+      }
+    ],
+    "tags": ["aws", "aspnet core", "postgresql", "RabbitMQ", "S3 Bucket", "EC2"]
+  },
+  {
+    "id": 2,
+    "title": "Todo SPA Projects",
+    "description": "Some TODO List wrote using different js frameworks",
+    "links": [
+      {
+        "url": "https://github.com/simone98dm/angular-todoapp",
+        "label": "Angular"
+      },
+      {
+        "url": "https://github.com/simone98dm/react-todoapp",
+        "label": "React"
+      },
+      {
+        "url": "https://github.com/simone98dm/svelte-todoapp",
+        "label": "Svelte"
+      }
+    ],
+    "tags": ["react", "angular", "svelte", "typscript"]
+  },
+  {
+    "id": 3,
+    "title": "TSAC2019",
+    "description": "Complex queue based api and frontend",
+    "links": [
+      {
+        "url": "https://github.com/simone98dm/ITS-TSAC2019-Esame",
+        "label": "repo"
+      }
+    ],
+    "tags": [
+      "docker",
+      "angular",
+      "postgresql",
+      "rabbitmq",
+      "queue-workers",
+      "publish-subscribe",
+      "api"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Languages",
+    "description": "C#, Javascript, Typescript, HTML, CSS, SQL, PHP, Bash"
+  },
+  {
+    "id": 2,
+    "title": "Frameworks",
+    "description": "React, Angular, Bootstrap, Svelte, JQuery, Sapper"
+  },
+  {
+    "id": 3,
+    "title": "Other",
+    "description": "Linux, Windows, Azure, AWS, Git, Postman, Nmap"
+  }
+]
