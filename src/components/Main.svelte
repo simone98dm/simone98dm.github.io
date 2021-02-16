@@ -1,6 +1,5 @@
 <script>
   import Section from "./Section.svelte";
-  import { getInfo, getWorks } from "../api/data.js";
   const thingsToKnow = [
     {
       id: 1,
