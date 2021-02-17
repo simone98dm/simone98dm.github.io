@@ -20,25 +20,6 @@
 
   const works = [
     {
-      id: 1,
-      title: "PhotoContest",
-      description: "Photo contest web app",
-      links: [
-        {
-          url: "https://github.com/simone98dm/PhotoContest",
-          label: "repo",
-        },
-      ],
-      tags: [
-        "aws",
-        "aspnet core",
-        "postgresql",
-        "RabbitMQ",
-        "S3 Bucket",
-        "EC2",
-      ],
-    },
-    {
       id: 2,
       title: "Todo SPA Projects",
       description: "Some TODO List wrote using different js frameworks",
