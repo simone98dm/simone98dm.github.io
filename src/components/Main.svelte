@@ -1,24 +1,74 @@
 <script>
+  import Header from "./Header.svelte";
   import Section from "./Section.svelte";
   const thingsToKnow = [
     {
       id: 1,
       title: "Languages",
-      description: "C#, Javascript, Typescript, HTML, CSS, SQL, PHP, Bash",
+      tags: [
+        "C#",
+        "ASP.Net Core",
+        "Javascript",
+        "Typescript",
+        "Java",
+        "PHP",
+        "Python",
+        "HTML/CSS",
+        "SQL",
+        "Bash",
+        "SASS"
+      ],
     },
     {
       id: 2,
       title: "Frameworks",
-      description: "React, Angular, Bootstrap, Svelte, JQuery, Sapper",
+      tags: [
+        "React",
+        "Angular",
+        "Bootstrap",
+        "Svelte",
+        "JQuery",
+        "EntityFramework",
+        "Express",
+        "Ionic",
+        "Sapper",
+      ],
     },
     {
       id: 3,
       title: "Other",
-      description: "Linux, Windows, Azure, AWS, Git, Postman, Nmap",
+      tags: [
+        "Linux/Windows",
+        "Azure/AWS",
+        "Docker",
+        "Git",
+        "Postman",
+        "Nmap",
+        "NodeJS",
+        "RabbitMQ",
+        "Redis",
+        "MySQL/Postgresql",
+      ],
     },
   ];
 
   const works = [
+    {
+      id: 1,
+      title: "Certifications",
+      links: [
+        {
+          url:
+            "https://docs.microsoft.com/en-us/learn/certifications/exams/70-483",
+          label: "Microsoft 70-483",
+        },
+        {
+          url:
+            "https://docs.microsoft.com/en-us/learn/certifications/exams/mb-200",
+          label: "Microsoft MB-200",
+        },
+      ],
+    },
     {
       id: 2,
       title: "Todo SPA Projects",
@@ -64,22 +114,12 @@
 
 <div class="section animate__animated animate__fadeIn">
   <div class="container grid-lg" id="overview">
-    <div class="my-5">
-      <h3 class="text-italic">My name is</h3>
-      <h1 class="text-bold">Simone</h1>
-      <h3 class="text-muted">
-        I am a <code>web developer</code>,
-        <mark>tech enthusiast</mark>, and
-        <span class="text-success">pi</span>
-        <span class="text-secondary">z</span>
-        <span class="text-error">za</span> lover.
-      </h3>
-    </div>
+    <Header />
     <div class="my-5">
       {#await thingsToKnow}
         <p>Loading...</p>
       {:then data}
-        <Section list={data} title="Things to know" />
+        <Section list={data} title="Things about me" />
       {:catch error}
         {console.error(error)}
         <p>An error occurred!</p>
@@ -89,7 +129,7 @@
       {#await works}
         <p>Loading...</p>
       {:then data}
-        <Section list={data} title="Some works" />
+        <Section list={data} title="Else" />
       {:catch error}
         {console.error(error)}
         <p>An error occurred!</p>
