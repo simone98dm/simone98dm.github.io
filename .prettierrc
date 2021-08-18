@@ -1,0 +1,8 @@
+{
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 80,
+	"svelteIndentScriptAndStyle": true,
+	"svelteSortOrder": "scripts-markup-styles"
+}
