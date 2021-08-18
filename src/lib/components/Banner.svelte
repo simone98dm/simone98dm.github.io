@@ -26,7 +26,7 @@
 
 <style scoped>
 	.bg-image {
-		background-image: url(img/photo-1550745165-9bc0b252726f.jpeg);
+		background-image: url(photo-1550745165-9bc0b252726f.jpeg);
 		animation-name: fadeInBackground;
 		animation-duration: 1s;
 	}
