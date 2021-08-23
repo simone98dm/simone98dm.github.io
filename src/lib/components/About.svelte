@@ -27,7 +27,7 @@
 		{
 			displayText: 'Backend',
 			percentage: 100,
-			tags: ['DotnetCore', 'NodeJS', 'Express']
+			tags: ['Dotnet Core', 'NodeJS', 'Express']
 		},
 		{
 			displayText: 'Server',
