@@ -1,6 +1,13 @@
 <svelte:options immutable={true} />
 
-<div id="home" class="intro route bg-image">
+<script>
+	let src = 'img/bg.jpeg';
+	let stl = {
+		backgroundImage: "url({src})"
+	};
+</script>
+
+<div id="home" class="intro route bg-image" style="background-image: url({src});">
 	<div class="overlay-itro" />
 	<div class="intro-content display-table">
 		<div class="table-cell">
@@ -26,7 +33,6 @@
 
 <style scoped>
 	.bg-image {
-		background-image: url(photo-1550745165-9bc0b252726f.jpeg);
 		animation-name: fadeInBackground;
 		animation-duration: 1s;
 	}
