@@ -4,10 +4,11 @@
 	import type { ISkill } from '$lib/models/skill';
 
 	let paragraphs: string[] = [
-		'I am a cloud-oriented developer.',
-		'I develop daily with different technologies, in particular, I am oriented to the Microsoft world (Azure, C# dotnet core) and to the javascript/typescript world to be used as a frontend framework (Angular, React, and Svelte) and as a backend (via runtime Node).',
-		'In my free time, I keep busy with various hobbies, in particular, concerning the world of cybersecurity (reverse engineering, web security).',
-		'I participate in conferences concerning the world of information technology and programming/cybersecurity challenges (CTF, Reply Challenges).'
+		'I am a cloud-oriented web developer.',
+		"I'm fluent with Microsoft stack (Azure Services, ASP.NET, .NET Core/Framework) and Javascript/Typescript.",
+		'My passion is both frontend and backend and because of that, I learned different frontend frameworks (Angular, React, Svelte, and ASP.NET) to create more interactive user interfaces and backend technologies (.NET Core, and NodeJS) to make performance-oriented API. ',
+		'During my work experience, I improved day by day my knowledge about enterprise projects building (using design patterns like repository patterns) and how to design features to be easy to maintain and improvable with more features in the near future.',
+		'I keep busy with various hobbies during my free time, particularly cyber security (mainly web security), listening to podcasts about the tech world, and riding a bike.'
 	];
 
 	let skills: ISkill[] = [
@@ -27,7 +28,7 @@
 		{
 			displayText: 'Backend',
 			percentage: 100,
-			tags: ['Dotnet Core', 'NodeJS', 'Express']
+			tags: ['Dotnet Core', 'NodeJS']
 		},
 		{
 			displayText: 'Server',
@@ -35,7 +36,7 @@
 			tags: ['MSSQL', 'MYSQL', 'POSTGRESQL', 'REDIS']
 		},
 		{
-			displayText: 'System Administrator',
+			displayText: 'Operating Systems',
 			percentage: 80,
 			tags: ['Linux (I use arch btw)', 'Windows']
 		},
@@ -44,11 +45,9 @@
 			percentage: 80,
 			tags: [
 				'Git',
-				'Github/Gitlab',
 				'Nmap',
 				'Postman',
 				'Docker',
-				'Raspberry Pi',
 				'Exception Reading',
 				'Copy&Paste'
 			]
@@ -77,30 +76,22 @@
 				<div class="box-shadow-full">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="row">
-								<div class="col-sm-6 col-md-5">
-									<div class="about-img">
-										<img
-											src="https://avatars.githubusercontent.com/u/17797267"
-											class="img-fluid rounded b-shadow-a rounded-circle"
-											alt=""
-										/>
-									</div>
+							<div class="about-me pt-4 pt-md-0">
+								<div class="title-box-2">
+									<h5 class="title-left">About me</h5>
 								</div>
-								<div class="col-sm-6 col-md-7 alighn-middle">
-									<div class="about-info">
-										<p>
-											<span class="fw-bold">Name: </span> <span>Simone</span>
-										</p>
-										<p>
-											<span class="fw-bold">Profile: </span>
-											<span>full stack developer</span>
-										</p>
-									</div>
-								</div>
+								{#each paragraphs as paragraph}
+									<p class="lead">
+										{paragraph}
+									</p>
+								{/each}
 							</div>
+						</div>
+						<div class="col-md-6">
 							<div class="skill-mf">
-								<p class="fw-bold">Skill</p>
+								<div class="title-box-2">
+									<h5 class="title-left">Skill</h5>
+								</div>
 								{#each skills as skill}
 									<div class="mt-3">
 										<div class="row">
@@ -131,19 +122,6 @@
 											</div>
 										{/each}
 									</div>
-								{/each}
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="about-me pt-4 pt-md-0">
-								<div class="title-box-2">
-									<h5 class="title-left">About me</h5>
-								</div>
-								{#each paragraphs as paragraph}
-									<p class="lead">
-										<!--animate__animated animate__fadeIn animate__delay-{i}s-->
-										{paragraph}
-									</p>
 								{/each}
 							</div>
 						</div>

@@ -6,21 +6,18 @@
 
 	let list: IProject[] = [
 		{
-			title: 'Certification',
-			description: '',
+			title: 'Spork',
+			description: 'Get your top listened spotify tracks',
 			links: [
 				{
-					displayText: 'Microsoft 70-483',
-					url:
-						'https://docs.microsoft.com/en-us/learn/certifications/exams/70-483'
+					displayText: 'repo',
+					url: 'https://github.com/simone98dm/spork'
+				},{
+					displayText: 'webapp',
+					url: 'https://simone98dm.github.io/spork/'
 				},
-				{
-					displayText: 'Microsoft MB-200',
-					url:
-						'https://docs.microsoft.com/en-us/learn/certifications/exams/mb-200'
-				}
 			],
-			iconcode: 'fa-certificate'
+			iconcode: 'fa-music'
 		},
 		{
 			title: 'TODO SPA Projects',
