@@ -7,7 +7,7 @@
 		'I am a cloud-oriented web developer.',
 		"I'm fluent with Microsoft stack (Azure Services, ASP.NET, .NET Core/Framework) and Javascript/Typescript.",
 		'My passion is both frontend and backend and because of that, I learned different frontend frameworks (Angular, React, Svelte, and ASP.NET) to create more interactive user interfaces and backend technologies (.NET Core, and NodeJS) to make performance-oriented API. ',
-		'During my work experience, I improved day by day my knowledge about enterprise projects building (using design patterns like repository patterns) and how to design features to be easy to maintain and improvable with more features in the near future.',
+		'During my work experience, I improved day by day my knowledge about enterprise projects building (using design patterns like repository pattern) and how to design features to be easy to maintain and improvable with more features in the near future.',
 		'I keep busy with various hobbies during my free time, particularly cyber security (mainly web security), listening to podcasts about the tech world, and riding a bike.'
 	];
 

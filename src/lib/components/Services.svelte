@@ -35,6 +35,10 @@
 				{
 					displayText: 'Svelte',
 					url: 'https://github.com/simone98dm/svelte-todoapp'
+				},
+				{
+					displayText: 'VueJS',
+					url: 'https://github.com/simone98dm/vue2-proj'
 				}
 			],
 			iconcode: 'fa-list-ul'
@@ -49,6 +53,39 @@
 				}
 			],
 			iconcode: 'fa-cloud'
+		},
+		{
+			title: 'LeetCode',
+			description: 'Some solutions for leetcode problems',
+			links: [
+				{
+					displayText: 'repo',
+					url: 'https://github.com/simone98dm/LeetCode'
+				}
+			],
+			iconcode: 'fa-dna'
+		},
+		{
+			title: 'Spork Playlist',
+			description: 'Sync your local music folder to spotify acc.',
+			links: [
+				{
+					displayText: 'repo',
+					url: 'https://github.com/simone98dm/simone98dm.playlist'
+				}
+			],
+			iconcode: 'fa-guitar'
+		},
+		{
+			title: 'Bing Daily Wallpaper',
+			description: 'Set bing daily wallpaper',
+			links: [
+				{
+					displayText: 'repo',
+					url: 'https://github.com/simone98dm/simone98dm.dailybingwallpaper'
+				}
+			],
+			iconcode: 'fa-image'
 		}
 	];
 </script>
