@@ -1162,14 +1162,13 @@ footer .credits a {
 	line-height: 1.5;
 	border-radius: 0.3rem;
 }
-
-@media (min-width: 577px) {
+.container {
+	margin: auto;
+}
+@media only screen and (max-width: 600px) {
 	.counter-box {
 		margin-bottom: 1.8rem;
 	}
-}
-
-@media (min-width: 767px) {
 	.about-mf .box-pl2 {
 		margin-top: 3rem;
 		padding-left: 0rem;
@@ -1183,9 +1182,12 @@ footer .credits a {
 		margin-top: 3rem;
 		padding-left: 0rem;
 	}
+	.container {
+		max-width: 100%;
+		transition: 500ms;
+	}
 }
-
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.box-shadow-full {
 		padding: 3rem;
 	}
@@ -1230,28 +1232,26 @@ footer .credits a {
 	.box-comments .list-comments .comment-author {
 		font-size: 1.5rem;
 	}
+	.container {
+		max-width: 900px;
+		transition: 500ms;
+	}
 }
-
-@media (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
 	.testimonial-box .description {
 		padding: 0 8rem;
 	}
-}
-
-@media (min-width: 1200px) {
 	.testimonial-box .description {
 		padding: 0 13rem;
 	}
-}
-
-@media (max-width: 1024px) {
 	.bg-image {
 		background-attachment: scroll;
 	}
-}
-
-@media (max-width: 768px) {
 	.back-to-top {
 		bottom: 15px;
+	}
+	.container {
+		max-width: 1400px;
+		transition: 500ms;
 	}
 }
