@@ -2,9 +2,7 @@
 
 <script lang="ts">
 	import Item from './Item.svelte';
-	import type { IProject } from '$lib/models/project';
-
-	export let list: IProject[];
+	export let list: any[];
 </script>
 
 {#each list as item}
