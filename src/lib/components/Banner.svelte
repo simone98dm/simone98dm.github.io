@@ -7,7 +7,7 @@
 			<div class="container">
 				<h1 class="intro-title mb-4">I am Simone</h1>
 				<p class="intro-subtitle animate__animated animate__backInUp">
-					<span>I am a frontend & backend developer</span>
+					<span>Frontend & backend developer</span>
 				</p>
 				<p
 					class="intro-subtitle animate__animated animate__backInUp animate__delay-1s"
