@@ -10,11 +10,11 @@
 			"displayText": "Web",
 			"percentage": 100,
 			"tags": [
-				"HTML/CSS",
-				"JavaScript",
+				"Vue",
 				"TypeScript",
-				"Svelte",
 				"React",
+				"JavaScript",
+				"Svelte",
 				"Angular",
 				"ASP.NET Core"
 			]
@@ -46,7 +46,7 @@
 				},
 				{
 					"displayText": "webapp",
-					"url": "https://sporky.netlify.app/"
+					"url": "https://sporky.simone98dm.dev/"
 				}
 			],
 			"iconcode": "fa-music"
